@@ -19,7 +19,10 @@
 
 
 from odoo import fields, models
-# el nombre de nuestra clase será como el nbombre d ela tabla
+
 class users(models.Model):
-    _name= "users"
-    _description="Tabla de usuarios"
+    _name = "users"
+    _description = "Tabla de usuarios"
+
+    name = fields.Char(string="Nombre")
+    description = fields.Text(string="Descripción")

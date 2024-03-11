@@ -28,7 +28,7 @@
         'views/views.xml',
         'views/templates.xml',
         # Agrega la referencia al archivo Python de modelos
-        'models/models.py',  # <-- Agrega esta línea
+        #'models/models.py',  # <-- Agrega esta línea
         # Agrega la referencia al archivo XML de datos
         'data/datos.xml',
     ],

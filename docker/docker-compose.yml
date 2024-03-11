@@ -12,6 +12,8 @@ services:
     image: odoo:16.0  # Establece la imagen Docker para el servicio "web".
     depends_on:
       - mydb  # Indica que este servicio depende de que el servicio "mydb" esté disponible.
+    volumes: # Añade la sección "volumes" para el servicio "web"
+      - ./addons:/mnt/extra-addons  # Monta el directorio local "./addons" dentro del contenedor en "/mnt/extra-addons"
     ports:
       - "8069:8069"  # Mapea el puerto 8069 del host al puerto 8069 del contenedor.
     environment:

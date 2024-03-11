@@ -1,0 +1,12 @@
+<odoo>
+    <data>
+        <record model="users" id="openacademy.nombres">
+            <!-->Aquñi indicaremso que campos tiene la talba, o haremso referencia a ellso mejro dicho<-->
+            <field name="name">JUAN ANTONIO GB</field>
+            <field name="description">ESCLAVO DEL SEÑOR</field>
+
+        </record>
+
+    </data>
+
+</odoo>
